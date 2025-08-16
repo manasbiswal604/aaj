@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Proposal - IJARISE</title>
+    <meta name="description" content="Propose a conference in partnership with the International Journal of Advanced Research and Interdisciplinary Scientific Endeavours (IJARISE).">
+    <meta name="keywords" content="conference proposal, IJARISE, scientific papers, research, partnership, scopus">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts - Montserrat & Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Top Line Header -->
+    <div class="top-line bg-dark py-2">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-8 col-sm-12 col-xs-12 text-center text-md-start mb-2 mb-md-0">
+                    <a class="irp text-white text-decoration-none" href="#">
+                        <h6 class="mb-0">International Journal of Advanced Research and Interdisciplinary Scientific Endeavours</h6>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 text-center text-md-end">
+                    <ul class="social-icons list-unstyled d-inline-flex gap-3 mb-0">
+                        <li><a class="text-white text-decoration-none small" href="#">RSS feed &nbsp;&nbsp; <img src="https://placehold.co/20x20/ffffff/000000?text=RSS" alt="RSS Feed" width="20" height="20"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="journal-main-header py-3">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-center mb-3 mb-md-0">
+                    <a href="#"><img src="/assets/images/logo.png" alt="Journal Logo" class="img-fluid me-3" width="60" height="auto"></a>
+                    <ul class="info-list list-unstyled d-inline-flex gap-3 mb-0">
+                        <li><a class="text-dark text-decoration-none" href="/index.html">Home</a></li>
+                        <li><a class="text-dark text-decoration-none" href="#">About Us</a></li>
+                        <li><a class="text-dark text-decoration-none" href="#">FAQ</a></li>
+                        <li><a class="btn btn-info btn-sm rounded-pill" href="#" target="_blank">Submit Paper</a></li>
+                    </ul>
+                    <div id="google_translate_element" class="ms-auto"></div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-center justify-content-end">
+                    <div class="input-group me-2" style="max-width: 200px;">
+                        <input type="text" name="search" id="search" placeholder="Search...." class="form-control form-control-sm rounded-start-pill">
+                        <select class="form-select form-select-sm rounded-end-pill" name="shtype" id="shtype">
+                            <option value="All" selected="selected">All</option>
+                            <option value="Authors">Authors</option>
+                            <option value="Title">Title</option>
+                            <option value="Abstract">Abstract</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn btn-success btn-sm me-3 rounded-pill" onclick="searchdata()">Search</button>
+                    <span class="text-dark fw-bold me-3 small">ISSN(online): 3048-7021</span>
+                    <ul class="social-icons list-unstyled d-inline-flex gap-2 mb-0">
+                        <li><a class="btn btn-sm btn-social-icon linkedin rounded-circle" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownIssues" role="button" data-bs-toggle="dropdown" aria-expanded="false">ISSUES</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownIssues">
+                            <li><a class="dropdown-item" href="#">Current Issue</a></li>
+                            <li><a class="dropdown-item" href="#">Archive</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownSpecialIssue" role="button" data-bs-toggle="dropdown" aria-expanded="false">SPECIAL ISSUE</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownSpecialIssue">
+                            <li><a class="dropdown-item" href="#">Conference Publication</a></li>
+                            <li><a class="dropdown-item active" href="./conference-proposal.html">Conference Proposal</a></li>
+                            <li><a class="dropdown-item" href="#">Partnership Conference Paper</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">SUBJECT AREA</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownThesis" role="button" data-bs-toggle="dropdown" aria-expanded="false">THESIS</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownThesis">
+                            <li><a class="dropdown-item" href="#">Thesis Invitation</a></li>
+                            <li><a class="dropdown-item" href="#">Online Submission Form</a></li>
+                            <li><a class="dropdown-item" href="#">Thesis Publish</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPolicies" role="button" data-bs-toggle="dropdown" aria-expanded="false">Policies</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownPolicies">
+                            <li><a class="dropdown-item" href="#">Journal Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Peer Review Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Article Withdraw Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Publication Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Plagiarism Policy</a></li>
+                            <li><a class="dropdown-item" href="#">AI Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Conflicts of Interest Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Corrections and Retractions Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Duplicate Submission Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Allegation of Misconduct</a></li>
+                            <li><a class="dropdown-item" href="#">Copyright</a></li>
+                            <li><a class="dropdown-item" href="#">Revenue Sources</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">ETHICS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">AIM &amp; SCOPE</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlogs" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blogs</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownBlogs">
+                            <li><a class="dropdown-item" href="#">Blog Submission</a></li>
+                            <li><a class="dropdown-item" href="#">Blogs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="container-fluid my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="about-box card shadow-sm mb-4 rounded-3">
+                    <div class="card-body">
+                        <h2 class="widget-title custom-section-title mb-4">Conference Proposal</h2>
+                        
+                        <p class="text-justify"><span data-preserver-spaces="true">Embrace innovation and collaboration by partnering with the International Journal of Advanced Research and Interdisciplinary Scientific Endeavors (<a href="https://ijarise.org/index.php/ijarise" class="text-decoration-none"><strong>IJARISE</strong></a>) for your next conference. Whether virtual or offline, IJARISE offers a sustainable platform to publish <a href="https://ijarise.org/index.php/ijarise/scientific-papers" class="text-decoration-none"><strong>scientific papers</strong></a> and exchange ideas, ensuring your conference leaves a lasting impact.</span></p>
+                        
+                        <h3 class="fw-bold mt-4 mb-3" style="color: #ffc107;">Types of Conferences:</h3>
+                        <ol class="mb-4">
+                            <li><strong><span data-preserver-spaces="true">Annual Conferences:</span></strong><span data-preserver-spaces="true">&nbsp;Set the stage for annual gatherings of thought leaders and researchers.</span></li>
+                            <li><strong><span data-preserver-spaces="true">Quarterly Conferences:</span></strong><span data-preserver-spaces="true">&nbsp;Stay ahead of the curve with regular updates and discussions.</span></li>
+                            <li><strong><span data-preserver-spaces="true">Technical and Non-Technical Conferences:</span></strong><span data-preserver-spaces="true">&nbsp;Cater to diverse audiences with specialized and general-interest events.</span></li>
+                            <li><strong><span data-preserver-spaces="true">Student Conferences:</span></strong><span data-preserver-spaces="true">&nbsp;Empower the next generation of scholars with dedicated student-focused conferences.</span></li>
+                            <li><strong><span data-preserver-spaces="true">Event Summaries and Reports:</span></strong><span data-preserver-spaces="true">&nbsp;Document and disseminate key insights and outcomes from your events.</span></li>
+                        </ol>
+                        
+                        <h3 class="fw-bold mt-4 mb-3" style="color: #ffc107;">Publication Offers:</h3>
+                        <p class="text-justify"><span data-preserver-spaces="true">Collaborating with IJARISE opens doors to prime publishing opportunities. Conference papers and proceedings will be showcased in our journal, with the added prestige of being submitted for <a href="https://ijarise.org/index.php/ijarise/scopus-indexed-journals" class="text-decoration-none"><strong>Scopus</strong></a>, Web of Science, and Ei-Compendex Indexing.</span></p>
+
+                        <h3 class="fw-bold mt-4 mb-3" style="color: #ffc107;">About IJARISE:</h3>
+                        <p class="text-justify"><span data-preserver-spaces="true">International Journal of Advanced Research and Interdisciplinary Scientific Endeavours stands at the forefront of multidisciplinary research, providing a dynamic platform for cutting-edge scientific papers and advanced research. Unlike conventional publishers, we embrace diverse contributions, from concepts and hypotheses to early research works and negative results, fostering inclusive scientific discourse.</span></p>
+                        
+                        <h3 class="fw-bold mt-4 mb-3" style="color: #ffc107;">Key Objectives:</h3>
+                        <ul class="list-group list-group-flush mb-4">
+                            <li class="list-group-item"><span data-preserver-spaces="true">Serve as a premier forum for groundbreaking research across multidisciplinary disciplines.</span></li>
+                            <li class="list-group-item"><span data-preserver-spaces="true">Promote inclusivity by accepting technical papers from students and academic professionals.</span></li>
+                            <li class="list-group-item"><span data-preserver-spaces="true">Foster innovation by embracing diverse scholarly contributions.</span></li>
+                            <li class="list-group-item"><span data-preserver-spaces="true">Bridge the scientific gap between current and exemplary research.</span></li>
+                            <li class="list-group-item"><span data-preserver-spaces="true">Uphold rigorous editorial standards and peer review processes.</span></li>
+                            <li class="list-group-item"><span data-preserver-spaces="true">Actively engage with the scientific community to foster collaboration and knowledge exchange worldwide.</span></li>
+                        </ul>
+                        
+                        <h3 class="fw-bold mt-4 mb-3" style="color: #ffc107;">IJARISE Focus and Scope:</h3>
+                        <p class="text-justify"><span data-preserver-spaces="true">Our journal is dedicated to publishing groundbreaking <a href="https://ijarise.org/index.php/ijarise/scientific-papers" class="text-decoration-none"><strong>scientific papers</strong></a> across various disciplines. We invite researchers to join us in revolutionizing modern research and driving innovation. Let's collaborate to make a difference in reporting advanced scientific articles.</span></p>
+                        <p class="text-justify"><span data-preserver-spaces="true">For inquiries and collaboration opportunities, contact us at <a href="mailto:contact@ijarise.org" class="text-decoration-none"><strong>contact@ijarise.org</strong></a> and embark on a journey of discovery with IJARISE Journal.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="journal-footer py-4 text-white text-center rounded-top-3">
+        <div class="container-fluid">
+            <ul class="list-unstyled d-flex justify-content-center flex-wrap gap-3 mb-3 list-footer">
+                <li><a href="#" class="text-white text-decoration-none px-2">Disclaimer</a></li>
+                <li><a href="#" class="text-white text-decoration-none px-2">Privacy policy</a></li>
+                <li><a href="#" class="text-white text-decoration-none px-2">Terms &amp; Conditions</a></li>
+                <li><a href="#" class="text-white text-decoration-none px-2">XML Sitemap</a></li>
+            </ul>
+            <p class="mb-2">Copyright © 2013-2025 &nbsp; | &nbsp; <a href="#" target="_blank" class="text-white text-decoration-none"> Demo Publication </a>, Registration No. XXXXXXX</p>
+            <p class="mb-2"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" class="text-white text-decoration-none"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png">Creative Commons Attribution 4.0 International License</a></p>
+            <p class="mb-0 small text-white">Visitor Counter: XXXXXXX</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

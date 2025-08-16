@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ's - IJARISE</title>
+    <meta name="description" content="Frequently Asked Questions (FAQ) about the International Journal of Advanced Research and Interdisciplinary Scientific Endeavours (IJARISE).">
+    <meta name="keywords" content="FAQ, IJARISE, frequently asked questions, peer review, publication charges, submission, contact">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .faq-item {
+            margin-bottom: 2rem;
+        }
+        .faq-item strong {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .faq-item p {
+            margin-left: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-line bg-dark py-2">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-8 col-sm-12 col-xs-12 text-center text-md-start mb-2 mb-md-0">
+                    <a class="irp text-white text-decoration-none" href="#">
+                        <h6 class="mb-0">International Journal of Advanced Research and Interdisciplinary Scientific Endeavours</h6>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 text-center text-md-end">
+                    <ul class="social-icons list-unstyled d-inline-flex gap-3 mb-0">
+                        <li><a class="text-white text-decoration-none small" href="#">RSS feed &nbsp;&nbsp; <img src="https://placehold.co/20x20/ffffff/000000?text=RSS" alt="RSS Feed" width="20" height="20"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="journal-main-header py-3">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-center mb-3 mb-md-0">
+                    <a href="#"><img src="/assets/images/logo.png" alt="Journal Logo" class="img-fluid me-3" width="60" height="auto"></a>
+                    <ul class="info-list list-unstyled d-inline-flex gap-3 mb-0">
+                        <li><a class="text-dark text-decoration-none" href="/index.html">Home</a></li>
+                        <li><a class="text-dark text-decoration-none" href="#">About Us</a></li>
+                        <li><a class="text-dark text-decoration-none" href="#">FAQ</a></li>
+                        <li><a class="btn btn-info btn-sm rounded-pill" href="#" target="_blank">Submit Paper</a></li>
+                    </ul>
+                    <div id="google_translate_element" class="ms-auto"></div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-center justify-content-end">
+                    <div class="input-group me-2" style="max-width: 200px;">
+                        <input type="text" name="search" id="search" placeholder="Search...." class="form-control form-control-sm rounded-start-pill">
+                        <select class="form-select form-select-sm rounded-end-pill" name="shtype" id="shtype">
+                            <option value="All" selected="selected">All</option>
+                            <option value="Authors">Authors</option>
+                            <option value="Title">Title</option>
+                            <option value="Abstract">Abstract</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn btn-success btn-sm me-3 rounded-pill" onclick="searchdata()">Search</button>
+                    <span class="text-dark fw-bold me-3 small">ISSN(online): 3048-7021</span>
+                    <ul class="social-icons list-unstyled d-inline-flex gap-2 mb-0">
+                        <li><a class="btn btn-sm btn-social-icon linkedin rounded-circle" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownIssues" role="button" data-bs-toggle="dropdown" aria-expanded="false">ISSUES</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownIssues">
+                            <li><a class="dropdown-item" href="#">Current Issue</a></li>
+                            <li><a class="dropdown-item" href="#">Archive</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSpecialIssue" role="button" data-bs-toggle="dropdown" aria-expanded="false">SPECIAL ISSUE</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownSpecialIssue">
+                            <li><a class="dropdown-item" href="#">Proposal of Conference</a></li>
+                            <li><a class="dropdown-item" href="#">Conference Event</a></li>
+                            <li><a class="dropdown-item" href="#">Partnership Conference Paper</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">SUBJECT AREA</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownThesis" role="button" data-bs-toggle="dropdown" aria-expanded="false">THESIS</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownThesis">
+                            <li><a class="dropdown-item" href="#">Thesis Invitation</a></li>
+                            <li><a class="dropdown-item" href="#">Online Submission Form</a></li>
+                            <li><a class="dropdown-item" href="#">Thesis Publish</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPolicies" role="button" data-bs-toggle="dropdown" aria-expanded="false">Policies</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownPolicies">
+                            <li><a class="dropdown-item" href="#">Journal Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Peer Review Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Article Withdraw Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Publication Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Plagiarism Policy</a></li>
+                            <li><a class="dropdown-item" href="#">AI Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Conflicts of Interest Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Corrections and Retractions Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Duplicate Submission Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Allegation of Misconduct</a></li>
+                            <li><a class="dropdown-item" href="#">Copyright</a></li>
+                            <li><a class="dropdown-item" href="#">Revenue Sources</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">ETHICS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">AIM &amp; SCOPE</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownBlogs" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blogs</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownBlogs">
+                            <li><a class="dropdown-item" href="#">Blog Submission</a></li>
+                            <li class="dropdown-item active"><a class="nav-link" href="./faqs.html">Blogs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="about-box card shadow-sm mb-4 rounded-3">
+                    <div class="card-body">
+    <h2 class="widget-title custom-section-title mb-4">FAQ's</h2>
+    <div class="accordion" id="faqAccordion">
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    1) What is IJARISE?
+                </button>
+            </h3>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">IJARISE stands for International Journal of Advanced Research and Interdisciplinary Scientific Endeavours. It is a scholarly journal dedicated to publishing high-quality research articles across various disciplines, including <a href="https://ijarise.org/index.php/ijarise/scientific-papers" class="text-decoration-none"><strong>scientific papers</strong></a> and research papers.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    2) Is IJARISE a peer-reviewed journal?
+                </button>
+            </h3>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">Yes, IJARISE follows a rigorous peer-review process to ensure the quality and validity of published articles. All submitted manuscripts undergo a thorough evaluation by experts in their respective fields. The quality of papers published here is comparable to papers published in <a href="https://ijarise.org/index.php/ijarise/scopus-indexed-journals" class="text-decoration-none"><strong>scopus indexed journals</strong></a> and UGC CARE list journals.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    3) What types of articles does IJARISE publish?
+                </button>
+            </h3>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">IJARISE publishes original research articles, review papers, case studies, and short communications covering a wide range of multidisciplinary scientific topics.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    4) How can I submit my manuscript to IJARISE?
+                </button>
+            </h3>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">Manuscripts can be submitted online through the journal's website using the "<a href="https://ijarise.org/index.php/ijarise/about/submissions" class="text-decoration-none"><strong>Submit Manuscript</strong></a>" option. Authors are required to adhere to the submission guidelines provided on the website.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    5) What are the publication charges for IJARISE?
+                </button>
+            </h3>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">The publication charges vary based on the category of the author (student, research scholar, professional). Detailed information on publication fees is available on the journal's website (<a href="https://ijarise.org/index.php/ijarise/apc" class="text-decoration-none"><strong>APC</strong></a>). Fee waiver options for free publication are also available for authors facing financial constraints.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    6) How long does the peer review process take at IJARISE?
+                </button>
+            </h3>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">The peer review process typically takes 2-3 weeks. However, the duration may vary depending on factors such as the complexity of the manuscript and the availability of reviewers.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    7) What are the criteria for manuscript acceptance?
+                </button>
+            </h3>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">Manuscripts are evaluated based on originality, significance of findings, methodological rigor, clarity of presentation, and adherence to ethical guidelines.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    8) How can I become a reviewer for IJARISE?
+                </button>
+            </h3>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">Those interested in becoming reviewers can submit their CV and a brief statement of expertise to the editorial office at editor@ijarise.org. Reviewer appointments are made based on qualifications and expertise.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                    9) Can I request a retraction of my published article?
+                </button>
+            </h3>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">Yes, authors may request article retractions under certain circumstances such as errors in data or ethical concerns. Retraction requests are evaluated by the editorial office.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                    10) How do I contact the editorial office of IJARISE?
+                </button>
+            </h3>
+            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">You can reach the editorial office of IJARISE by emailing contact@ijarise.org. Our team is available to assist with any inquiries or concerns.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingEleven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                    11) Does IJARISE provide publication certificates?
+                </button>
+            </h3>
+            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">Yes, publication certificates are available upon request. Authors can contact the editorial office to obtain their publication certificates.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingTwelve">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                    12) Are there any specific formatting guidelines for manuscript submission?
+                </button>
+            </h3>
+            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">Yes, authors are required to follow the formatting guidelines provided on the journal's website to ensure consistency and clarity in manuscript presentation.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header" id="headingThirteen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                    13) How can I stay updated with the latest publications and announcements from IJARISE?
+                </button>
+            </h3>
+            <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    <p class="text-justify">You can subscribe to the journal's newsletter or follow us on social media platforms to receive updates on new publications, calls for papers, and other announcements. Additionally, regular visits to the journal's website will provide access to the latest content and news.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="journal-footer py-4 text-white text-center rounded-top-3">
+        <div class="container-fluid">
+            <ul class="list-unstyled d-flex justify-content-center flex-wrap gap-3 mb-3 list-footer">
+                <li><a href="#" class="text-white text-decoration-none px-2">Disclaimer</a></li>
+                <li><a href="#" class="text-white text-decoration-none px-2">Privacy policy</a></li>
+                <li><a href="#" class="text-white text-decoration-none px-2">Terms &amp; Conditions</a></li>
+                <li><a href="#" class="text-white text-decoration-none px-2">XML Sitemap</a></li>
+            </ul>
+            <p class="mb-2">Copyright © 2013-2025 &nbsp; | &nbsp; <a href="#" target="_blank" class="text-white text-decoration-none"> Demo Publication </a>, Registration No. XXXXXXX</p>
+            <p class="mb-2"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" class="text-white text-decoration-none"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png">Creative Commons Attribution 4.0 International License</a></p>
+            <p class="mb-0 small text-white">Visitor Counter: XXXXXXX</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Open Access Journal Site</title>
-    <meta name="description" content="A demo open access journal website for showcasing layout and design.">
-    <meta name="keywords" content="Demo Journal, Open Access, Research, Science, Technology">
+    <title>International Journal of Advanced Research and Interdisciplinary Scientific Endeavours</title>
+    <meta name="description"
+        content="IJARISE: A Multidisciplinary Scientific Journal for Publishing Scholarly Research. Publishes quality papers similar scientific articles published in Scopus Indexed Jouranls and UGC Care List Journals">
+    <meta name="generator" content="Open Journal Systems 3.3.0.16">
+    <meta name="title" content="International Journal of Advanced Research and Interdisciplinary Scientific Endeavours">
+    <meta name="description"
+        content="IJARISE: A Multidisciplinary Scientific Journal for Publishing Scholarly Research. Publishes quality papers similar scientific articles published in Scopus Indexed Jouranls and UGC Care List Journals">
+    <meta name="keywords"
+        content="publication, scientific papers, scopus journal, ugc care list journals, science journal, scientific journal, youth publication, scientific articles, journal paper, ugc care journal, ugc care list of journals, pamphlet, scholarly journal articles, peer reviewed articles,peer reviewed journal articles, scientific reports journal, online journal, peer reviewed journals, journal articles, scholarly journal, preprint, student paper, student paper publication, call for papers, call for abstracts, call for conferences">
     <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="author" content="IJARISE">
     <meta name="googlebot" content="index, follow">
     <meta name="distribution" content="Global">
     <meta name="rating" content="General">
@@ -17,7 +28,7 @@
     <meta name="zip code" content="00000">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="og:image" content="https://placehold.co/1200x630/003366/ffffff?text=Demo+Journal+Cover">
-    <link rel="icon" href="https://placehold.co/16x16/003366/ffffff?text=D" type="image/png" sizes="16x16">
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png" sizes="16x16">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -53,20 +64,24 @@
         }
     </script>
 </head>
+
 <body>
 
     <!-- Top Line Header -->
     <div class="top-line bg-dark py-2">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-8 col-sm-12 col-xs-12 text-center text-md-start mb-2 mb-md-0">
                     <a class="irp text-white text-decoration-none" href="#">
-                        <h5 class="mb-0">Innovative Research Publication (Demo)</h5>
+                        <h6 class="mb-0">International Journal of Advanced Research and Interdisciplinary Scientific
+                            Endeavours</h6>
                     </a>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12 text-center text-md-end">
                     <ul class="social-icons list-unstyled d-inline-flex gap-3 mb-0">
-                        <li><a class="text-white text-decoration-none small" href="#">RSS feed &nbsp;&nbsp; <img src="https://placehold.co/20x20/ffffff/000000?text=RSS" alt="RSS Feed" width="20" height="20"></a></li>
+                        <li><a class="text-white text-decoration-none small" href="#">RSS feed &nbsp;&nbsp; <img
+                                    src="https://placehold.co/20x20/ffffff/000000?text=RSS" alt="RSS Feed" width="20"
+                                    height="20"></a></li>
                     </ul>
                 </div>
             </div>
@@ -75,13 +90,14 @@
 
     <!-- Main Header -->
     <header class="journal-main-header py-3">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-center mb-3 mb-md-0">
-                    <a href="#"><img src="https://placehold.co/150x40/003366/ffffff?text=Demo+Journal+Logo" alt="Journal Logo" class="img-fluid me-3"></a>
+                    <a href="#"><img src="assets/images/logo.png" alt="Journal Logo" class="img-fluid me-3" width="60"
+                            height="auto"></a>
                     <ul class="info-list list-unstyled d-inline-flex gap-3 mb-0">
                         <li><a class="text-dark text-decoration-none" href="#">Home</a></li>
-                        <li><a class="text-dark text-decoration-none" href="#">About Us</a></li>
+                        <li><a class="text-dark text-decoration-none" href="/about-us">About Us</a></li>
                         <li><a class="text-dark text-decoration-none" href="#">FAQ</a></li>
                         <li><a class="btn btn-info btn-sm rounded-pill" href="#" target="_blank">Submit Paper</a></li>
                     </ul>
@@ -89,7 +105,8 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 d-flex align-items-center justify-content-end">
                     <div class="input-group me-2" style="max-width: 200px;">
-                        <input type="text" name="search" id="search" placeholder="Search...." class="form-control form-control-sm rounded-start-pill">
+                        <input type="text" name="search" id="search" placeholder="Search...."
+                            class="form-control form-control-sm rounded-start-pill">
                         <select class="form-select form-select-sm rounded-end-pill" name="shtype" id="shtype">
                             <option value="All" selected="selected">All</option>
                             <option value="Authors">Authors</option>
@@ -97,12 +114,14 @@
                             <option value="Abstract">Abstract</option>
                         </select>
                     </div>
-                    <button type="button" class="btn btn-success btn-sm me-3 rounded-pill" onclick="searchdata()">Search</button>
-                    <span class="text-dark fw-bold me-3 small">ISSN(online): XXXX - YYYY</span>
+                    <button type="button" class="btn btn-success btn-sm me-3 rounded-pill"
+                        onclick="searchdata()">Search</button>
+                    <span class="text-dark fw-bold me-3 small">ISSN(online): 3048-7021</span>
                     <ul class="social-icons list-unstyled d-inline-flex gap-2 mb-0">
-                        <li><a class="btn btn-sm btn-social-icon facebook rounded-circle" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a class="btn btn-sm btn-social-icon instagram rounded-circle" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li><a class="btn btn-sm btn-social-icon linkedin rounded-circle" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        <!-- <li><a class="btn btn-sm btn-social-icon facebook rounded-circle" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li> -->
+                        <!-- <li><a class="btn btn-sm btn-social-icon instagram rounded-circle" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li> -->
+                        <li><a class="btn btn-sm btn-social-icon linkedin rounded-circle" href="#" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -111,64 +130,94 @@
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#">Editorial Board</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home">HOME</a>
+                    </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownIssues" role="button" data-bs-toggle="dropdown" aria-expanded="false">ISSUES</a>
+                        <a class="nav-link dropdown-toggle" href="/archives" id="navbarDropdownIssues" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">ARCHIVES</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownIssues">
-                            <li><a class="dropdown-item" href="#">Current Issue</a></li>
-                            <li><a class="dropdown-item" href="#">Archive</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://ijarise.org/index.php/ijarise/issue/current">CURRENT</a></li>
+                            <li><a class="dropdown-item" href="https://ijarise.org/index.php/ijarise/issue/archive">PAST
+                                    ISSUES</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/submit-paper">SUBMIT MANUSCRIPT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ugc-guidelines">UGC 2025 GUIDELINES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/announcements">ANNOUNCEMENTS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/pay-apc-online" id="navbarDropdownAPC" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">PAY APC ONLINE</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownAPC">
+                            <li><a class="dropdown-item" href="https://pages.razorpay.com/ijarise-india">APC [Indian
+                                    Authors]</a></li>
+                            <li><a class="dropdown-item" href="https://pages.razorpay.com/ijarise-international">APC
+                                    [International Authors]</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/editorial-team">EDITORIAL TEAM</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/conferences" id="navbarDropdownConferences"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">CONFERENCES</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownConferences">
+                            <li><a class="dropdown-item" href="/conferences/conference-publication">Conference
+                                    Publication</a></li>
+                            <li><a class="dropdown-item" href="/conferences/conference-proposal">Conference Proposal</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSpecialIssue" role="button" data-bs-toggle="dropdown" aria-expanded="false">SPECIAL ISSUE</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownSpecialIssue">
-                            <li><a class="dropdown-item" href="#">Proposal of Conference</a></li>
-                            <li><a class="dropdown-item" href="#">Conference Event</a></li>
-                            <li><a class="dropdown-item" href="#">Partnership Conference Paper</a></li>
+                        <a class="nav-link dropdown-toggle" href="/about" id="navbarDropdownAbout" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">ABOUT</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                            <li><a class="dropdown-item" href="/about/about-journal">About the Journal</a></li>
+                            <li><a class="dropdown-item" href="/about/scope">Journal Scope</a></li>
+                            <li><a class="dropdown-item" href="/about/archiving">Journal Archiving</a></li>
+                            <li><a class="dropdown-item" href="/about/license">Journal License</a></li>
+                            <li><a class="dropdown-item" href="/about/indexing">Journal Indexing</a></li>
+                            <li><a class="dropdown-item" href="/about/publication-ethics">Publication Ethics</a></li>
+                            <li><a class="dropdown-item" href="/about/peer-review-policy">Peer-Review Policy</a></li>
+                            <li><a class="dropdown-item" href="/about/open-access-policy">Open Access Policy</a></li>
+                            <li><a class="dropdown-item" href="/about/privacy-statement">Privacy Statement</a></li>
+                            <li><a class="dropdown-item" href="/about/management">Journal Management</a></li>
+                            <!-- <li><a class="dropdown-item" href="/about/advisory-board">Advisory Board</a></li> -->
                         </ul>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">SUBJECT AREA</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">CONTACT</a>
+                    </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownThesis" role="button" data-bs-toggle="dropdown" aria-expanded="false">THESIS</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownThesis">
-                            <li><a class="dropdown-item" href="#">Thesis Invitation</a></li>
-                            <li><a class="dropdown-item" href="#">Online Submission Form</a></li>
-                            <li><a class="dropdown-item" href="#">Thesis Publish</a></li>
+                        <a class="nav-link dropdown-toggle" href="/more" id="navbarDropdownMore" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">MORE</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMore">
+                            <li><a class="dropdown-item" href="/more/publication-process">Publication Process</a></li>
+                            <li><a class="dropdown-item" href="/more/publishing">Publishing @IJARISE</a></li>
+                            <li><a class="dropdown-item" href="/more/reviewer-policy">Reviewer Policy</a></li>
+                            <li><a class="dropdown-item" href="/more/plagiarism-policy">Plagiarism Policy</a></li>
+                            <li><a class="dropdown-item" href="/more/copyright-and-permissions">Copyright and
+                                    Permissions</a></li>
+                            <li><a class="dropdown-item" href="/more/apc">Article Processing Charges</a></li>
+                            <li><a class="dropdown-item" href="/more/downloads">Downloads</a></li>
+                            <li><a class="dropdown-item" href="/more/faqs">FAQ's</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPolicies" role="button" data-bs-toggle="dropdown" aria-expanded="false">Policies</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownPolicies">
-                            <li><a class="dropdown-item" href="#">Journal Policy</a></li>
-                            <li><a class="dropdown-item" href="#">Peer Review Policy</a></li>
-                            <li><a class="dropdown-item" href="#">Article Withdraw Policy</a></li>
-                            <li><a class="dropdown-item" href="#">Publication Policy</a></li>
-                            <li><a class="dropdown-item" href="#">Plagiarism Policy</a></li>
-                            <li><a class="dropdown-item" href="#">AI Policy</a></li>
-                            <li><a class="dropdown-item" href="#">Conflicts of Interest Policy</a></li>
-                            <li><a class="dropdown-item" href="#">Corrections and Retractions Policy</a></li>
-                            <li><a class="dropdown-item" href="#">Duplicate Submission Policy</a></li>
-                            <li><a class="dropdown-item" href="#">Allegation of Misconduct</a></li>
-                            <li><a class="dropdown-item" href="#">Copyright</a></li>
-                            <li><a class="dropdown-item" href="#">Revenue Sources</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#">ETHICS</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">AIM &amp; SCOPE</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlogs" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blogs</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownBlogs">
-                            <li><a class="dropdown-item" href="#">Blog Submission</a></li>
-                            <li><a class="dropdown-item" href="#">Blogs</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -176,20 +225,23 @@
 
     <!-- Header Banner Place -->
     <div class="header-banner-place">
-        <img src="https://placehold.co/1920x330/003366/ffffff?text=Journal+Banner" alt="Journal Banner" class="img-fluid w-100">
+        <img src="https://ijarise.org/public/journals/1/homepageImage_en_US.png" alt="Journal Banner"
+            class="img-fluid w-100">
     </div>
 
     <!-- Main Content Area -->
-    <main class="container my-4">
+    <main class="container-fluid my-4">
         <div class="row">
             <!-- Left Sidebar -->
             <div class="col-lg-3 col-md-4 mb-4">
                 <div class="sidebar">
                     <div class="widget tags-widget card shadow-sm mb-4 rounded-3">
                         <div class="card-body p-0">
-                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Call for Papers</h2>
+                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Call for Papers
+                            </h2>
                             <div class="p-3">
-                                <p class="mb-1 fw-bold"><a href="#" class="text-decoration-none text-dark">Vol. XX, Issue Y, Month 20YY</a></p>
+                                <p class="mb-1 fw-bold"><a href="#" class="text-decoration-none text-dark">Vol. XX,
+                                        Issue Y, Month 20YY</a></p>
                                 <p class="mb-0 small">Paper Submission: DD Month YYYY<br>
                                     Author Notification: 10-15 days<br>
                                     Journal Publication: Month 20YY</p>
@@ -199,24 +251,34 @@
 
                     <div class="widget tags-widget card shadow-sm mb-4 rounded-3">
                         <div class="card-body p-0">
-                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Information</h2>
+                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Information
+                            </h2>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">DOI CrossRef (Demo)</a></li>
-                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Journal Indexing and Metrics (Demo)</a></li>
+                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">DOI
+                                        CrossRef (Demo)</a></li>
+                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Journal
+                                        Indexing and Metrics (Demo)</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="widget tags-widget card shadow-sm mb-4 rounded-3">
                         <div class="card-body p-0">
-                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">For Authors</h2>
+                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">For Authors
+                            </h2>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Guidelines</a></li>
-                                <li class="list-group-item"><a href="#" target="_blank" class="text-decoration-none text-dark">Check Plagiarism (Demo)</a></li>
-                                <li class="list-group-item"><a href="#" target="_blank" class="text-decoration-none text-dark">Check AI-Written Content (Demo)</a></li>
-                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Article Processing Fee</a></li>
-                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Online Fee</a></li>
-                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Tools for Authors</a></li>
+                                <li class="list-group-item"><a href="#"
+                                        class="text-decoration-none text-dark">Guidelines</a></li>
+                                <li class="list-group-item"><a href="#" target="_blank"
+                                        class="text-decoration-none text-dark">Check Plagiarism (Demo)</a></li>
+                                <li class="list-group-item"><a href="#" target="_blank"
+                                        class="text-decoration-none text-dark">Check AI-Written Content (Demo)</a></li>
+                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Article
+                                        Processing Fee</a></li>
+                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Online
+                                        Fee</a></li>
+                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Tools for
+                                        Authors</a></li>
                             </ul>
                         </div>
                     </div>
@@ -225,9 +287,12 @@
                         <div class="card-body p-0">
                             <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Browse</h2>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">By Issue</a></li>
-                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">By Author</a></li>
-                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">By Title</a></li>
+                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">By
+                                        Issue</a></li>
+                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">By
+                                        Author</a></li>
+                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">By
+                                        Title</a></li>
                             </ul>
                         </div>
                     </div>
@@ -236,18 +301,24 @@
                         <div class="card-body p-0">
                             <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Downloads</h2>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item"><a href="#" target="_blank" download="" class="text-decoration-none text-dark">Covering Letter (Demo)</a></li>
-                                <li class="list-group-item"><a href="#" target="_blank" download="" class="text-decoration-none text-dark">Paper Template (Demo)</a></li>
-                                <li class="list-group-item"><a href="#" target="_blank" download="" class="text-decoration-none text-dark">Copyright Form (Demo)</a></li>
-                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Cover Page</a></li>
-                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Download Certificate</a></li>
+                                <li class="list-group-item"><a href="#" target="_blank" download=""
+                                        class="text-decoration-none text-dark">Covering Letter (Demo)</a></li>
+                                <li class="list-group-item"><a href="#" target="_blank" download=""
+                                        class="text-decoration-none text-dark">Paper Template (Demo)</a></li>
+                                <li class="list-group-item"><a href="#" target="_blank" download=""
+                                        class="text-decoration-none text-dark">Copyright Form (Demo)</a></li>
+                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Cover
+                                        Page</a></li>
+                                <li class="list-group-item"><a href="#" class="text-decoration-none text-dark">Download
+                                        Certificate</a></li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="widget tags-widget card shadow-sm mb-4 rounded-3 text-center">
                         <div class="card-body p-3">
-                            <a href="#" target="_blank" class="btn btn-info btn-md w-100 rounded-pill">CALL FOR REVIEWERS</a>
+                            <a href="#" target="_blank" class="btn btn-info btn-md w-100 rounded-pill">CALL FOR
+                                REVIEWERS</a>
                         </div>
                     </div>
 
@@ -255,8 +326,10 @@
                         <div class="card-body p-0">
                             <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Subscribe</h2>
                             <div class="input-group p-3">
-                                <input type="search" id="newsemail" placeholder="Enter Your Email..." class="form-control form-control-sm rounded-start-pill">
-                                <button type="submit" class="btn btn-primary btn-sm rounded-end-pill" onclick="submitnewsletter()"><i class="fa fa-send"></i> Ok</button>
+                                <input type="search" id="newsemail" placeholder="Enter Your Email..."
+                                    class="form-control form-control-sm rounded-start-pill">
+                                <button type="submit" class="btn btn-primary btn-sm rounded-end-pill"
+                                    onclick="submitnewsletter()"><i class="fa fa-send"></i> Ok</button>
                             </div>
                         </div>
                     </div>
@@ -268,12 +341,27 @@
                 <div class="about-box card shadow-sm mb-4 rounded-3">
                     <div class="card-body">
                         <h2 class="widget-title custom-section-title mb-3">Welcome to Our Journal</h2>
-                        <p class="text-justify">Our Demo Journal is a peer-reviewed, open-access journal that publishes original research articles, review articles, and short communications in various fields of science and technology. Our mission is to provide a platform for researchers and practitioners to share their knowledge and findings, fostering innovation and advancements in the field.</p>
+                        <p class="text-justify">Welcome to the International Journal of Advanced Research and
+                            Interdisciplinary Scientific Endeavours, abbreviated as IJARISE, your premier destination
+                            for promoting multidisciplinary advanced research. We are committed to providing an
+                            exceptional platform for scholarly research, ensuring that quality works receive rapid
+                            publication through our double-blinded peer-review process. Our inclusive community welcomes
+                            research professionals, scientists, early career researchers, lab practitioners, startups,
+                            students, and other research professionals, enabling a diverse and vibrant exchange of
+                            scientific ideas through exceptional publication. With a focus on broader outreach across
+                            all scientific platforms, we aim to take ideation and fundamental research to the world. Our
+                            approach is to encourage original research and advanced scientific papers, ensuring
+                            accessibility for scholars and research professionals at all levels. Join us in propelling
+                            the boundaries of multidisciplinary research and making impactful contributions to the
+                            global scientific community.</p>
                         <p class="mb-0"><strong>Frequency :</strong> Bi-Monthly (6 issue per year)</p>
                         <p class="mb-0"><strong>Topics Covered:</strong> Various scientific and engineering fields</p>
                         <p class="mb-0"><strong>Accepted Language:</strong> English Only</p>
                         <p class="mb-0"><strong>Submit Online:</strong> <a href="#"> Click Here</a></p>
-                        <p class="text-justify mt-3"><strong>Type of Articles:</strong> Papers should be result-oriented and plagiarism-free (less than 10% including reference section). The paper title should not use generic terms like ‘Overview, Brief, Review, Case study, Study, Survey/ Approach, Comparative, Investigation, comparison’.</p>
+                        <p class="text-justify mt-3"><strong>Type of Articles:</strong> Papers should be result-oriented
+                            and plagiarism-free (less than 10% including reference section). The paper title should not
+                            use generic terms like ‘Overview, Brief, Review, Case study, Study, Survey/ Approach,
+                            Comparative, Investigation, comparison’.</p>
                     </div>
                 </div>
 
@@ -281,118 +369,145 @@
                     <div class="card-body">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="nav-latest-tab" data-bs-toggle="tab" data-bs-target="#nav-latest" type="button" role="tab" aria-controls="nav-latest" aria-selected="true">Latest Articles</button>
+                                <button class="nav-link active" id="nav-latest-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-latest" type="button" role="tab" aria-controls="nav-latest"
+                                    aria-selected="true">Latest Articles</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="nav-mostread-tab" data-bs-toggle="tab" data-bs-target="#nav-mostread" type="button" role="tab" aria-controls="nav-mostread" aria-selected="false">Most Read</button>
+                                <button class="nav-link" id="nav-mostread-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-mostread" type="button" role="tab" aria-controls="nav-mostread"
+                                    aria-selected="false">Most Read</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="nav-mostcited-tab" data-bs-toggle="tab" data-bs-target="#nav-mostcited" type="button" role="tab" aria-controls="nav-mostcited" aria-selected="false">Most Cited</button>
+                                <button class="nav-link" id="nav-mostcited-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-mostcited" type="button" role="tab"
+                                    aria-controls="nav-mostcited" aria-selected="false">Most Cited</button>
                             </li>
                         </ul>
                         <div class="tab-content pt-3" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-latest" role="tabpanel" aria-labelledby="nav-latest-tab">
+                            <div class="tab-pane fade show active" id="nav-latest" role="tabpanel"
+                                aria-labelledby="nav-latest-tab">
                                 <h5 class="mb-3">Articles most recently published online for this journal.</h5>
                                 <ul class="list-group list-group-flush small-posts">
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Advancements in AI for Climate Modeling</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Advancements in AI for
+                                                Climate Modeling</a></h3>
                                         <p class="text-muted mb-0">Authors: A. Researcher, B. Scientist</p>
                                         <p class="text-muted small mb-0">July 2025 - Vol 13, Issue 4</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Quantum Computing Applications in Drug Discovery</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Quantum Computing
+                                                Applications in Drug Discovery</a></h3>
                                         <p class="text-muted mb-0">Authors: C. Innovator, D. Visionary</p>
                                         <p class="text-muted small mb-0">July 2025 - Vol 13, Issue 4</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Blockchain for Supply Chain Optimization</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Blockchain for Supply
+                                                Chain Optimization</a></h3>
                                         <p class="text-muted mb-0">Authors: E. Engineer, F. Developer</p>
                                         <p class="text-muted small mb-0">July 2025 - Vol 13, Issue 4</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Sustainable Energy Solutions with IoT</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Sustainable Energy
+                                                Solutions with IoT</a></h3>
                                         <p class="text-muted mb-0">Authors: G. Green, H. Tech</p>
                                         <p class="text-muted small mb-0">July 2025 - Vol 13, Issue 4</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Robotics in Advanced Manufacturing</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Robotics in Advanced
+                                                Manufacturing</a></h3>
                                         <p class="text-muted mb-0">Authors: I. Robot, J. Automation</p>
                                         <p class="text-muted small mb-0">July 2025 - Vol 13, Issue 4</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Cybersecurity Threats in Smart Cities</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Cybersecurity Threats
+                                                in Smart Cities</a></h3>
                                         <p class="text-muted mb-0">Authors: K. Secure, L. Network</p>
                                         <p class="text-muted small mb-0">July 2025 - Vol 13, Issue 4</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Big Data Analytics for Urban Planning</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Big Data Analytics for
+                                                Urban Planning</a></h3>
                                         <p class="text-muted mb-0">Authors: M. Data, N. City</p>
                                         <p class="text-muted small mb-0">July 2025 - Vol 13, Issue 4</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">AI in Medical Diagnosis</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">AI in Medical
+                                                Diagnosis</a></h3>
                                         <p class="text-muted mb-0">Authors: O. Health, P. AI</p>
                                         <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                     </li>
                                     <!-- Hidden articles for "View More" -->
                                     <div id="viewarticle" style="display:none;">
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Edge Computing for Real-time Systems</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Edge Computing for
+                                                    Real-time Systems</a></h3>
                                             <p class="text-muted mb-0">Authors: Q. Compute, R. Edge</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Virtual Reality in Education</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Virtual Reality in
+                                                    Education</a></h3>
                                             <p class="text-muted mb-0">Authors: S. Learn, T. VR</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Natural Language Processing in Customer Service</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Natural Language
+                                                    Processing in Customer Service</a></h3>
                                             <p class="text-muted mb-0">Authors: U. Speak, V. Chat</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Data Privacy in the Digital Age</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Data Privacy in
+                                                    the Digital Age</a></h3>
                                             <p class="text-muted mb-0">Authors: W. Protect, X. Data</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Machine Learning for Financial Forecasting</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Machine Learning
+                                                    for Financial Forecasting</a></h3>
                                             <p class="text-muted mb-0">Authors: Y. Finance, Z. Predict</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Renewable Energy Grid Integration</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Renewable Energy
+                                                    Grid Integration</a></h3>
                                             <p class="text-muted mb-0">Authors: AA. Energy, BB. Grid</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Human-Computer Interaction Design</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Human-Computer
+                                                    Interaction Design</a></h3>
                                             <p class="text-muted mb-0">Authors: CC. Human, DD. Computer</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Advanced Materials for Aerospace</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Advanced Materials
+                                                    for Aerospace</a></h3>
                                             <p class="text-muted mb-0">Authors: EE. Material, FF. Aero</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Biometric Security Systems</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Biometric Security
+                                                    Systems</a></h3>
                                             <p class="text-muted mb-0">Authors: GG. Bio, HH. Secure</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Smart Agriculture Technologies</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Smart Agriculture
+                                                    Technologies</a></h3>
                                             <p class="text-muted mb-0">Authors: II. Farm, JJ. Smart</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Genomic Data Analysis Techniques</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Genomic Data
+                                                    Analysis Techniques</a></h3>
                                             <p class="text-muted mb-0">Authors: KK. Gene, LL. Data</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Cloud Computing Security Best Practices</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Cloud Computing
+                                                    Security Best Practices</a></h3>
                                             <p class="text-muted mb-0">Authors: MM. Cloud, NN. Security</p>
                                             <p class="text-muted small mb-0">May 2025 - Vol 13, Issue 3</p>
                                         </li>
@@ -400,231 +515,318 @@
                                 </ul>
                                 <div class="text-center mt-3">
                                     <button class="btn btn-danger btn-sm rounded-pill" id="viewmore">View More</button>
-                                    <button class="btn btn-danger btn-sm rounded-pill" id="viewless" style="display:none;">View Less</button>
+                                    <button class="btn btn-danger btn-sm rounded-pill" id="viewless"
+                                        style="display:none;">View Less</button>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-mostread" role="tabpanel" aria-labelledby="nav-mostread-tab">
+                            <div class="tab-pane fade" id="nav-mostread" role="tabpanel"
+                                aria-labelledby="nav-mostread-tab">
                                 <h5 class="mb-3">Articles with the most views.</h5>
                                 <ul class="list-group list-group-flush small-posts">
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 1: Machine Learning Trends</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 1:
+                                                Machine Learning Trends</a></h3>
                                         <p class="text-muted mb-0">Authors: X. Y. Z.</p>
-                                        <p class="text-muted small mb-0">May 2020 - Vol 8, Issue 3<br>Total Views: 150000 &amp; Total Downloads: 1200</p>
+                                        <p class="text-muted small mb-0">May 2020 - Vol 8, Issue 3<br>Total Views:
+                                            150000 &amp; Total Downloads: 1200</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 2: AI Ethics in Practice</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 2: AI
+                                                Ethics in Practice</a></h3>
                                         <p class="text-muted mb-0">Authors: A. B. C.</p>
-                                        <p class="text-muted small mb-0">May 2023 - Vol 11, Issue 3<br>Total Views: 40000 &amp; Total Downloads: 80</p>
+                                        <p class="text-muted small mb-0">May 2023 - Vol 11, Issue 3<br>Total Views:
+                                            40000 &amp; Total Downloads: 80</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 3: Future of Robotics</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 3:
+                                                Future of Robotics</a></h3>
                                         <p class="text-muted mb-0">Authors: D. E. F.</p>
-                                        <p class="text-muted small mb-0">March 2022 - Vol 10, Issue 2<br>Total Views: 25000 &amp; Total Downloads: 40</p>
+                                        <p class="text-muted small mb-0">March 2022 - Vol 10, Issue 2<br>Total Views:
+                                            25000 &amp; Total Downloads: 40</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 4: Cybersecurity in 5G Networks</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 4:
+                                                Cybersecurity in 5G Networks</a></h3>
                                         <p class="text-muted mb-0">Authors: G. H. I.</p>
-                                        <p class="text-muted small mb-0">May 2021 - Vol 9, Issue 3<br>Total Views: 22000 &amp; Total Downloads: 100</p>
+                                        <p class="text-muted small mb-0">May 2021 - Vol 9, Issue 3<br>Total Views: 22000
+                                            &amp; Total Downloads: 100</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 5: Quantum Computing Basics</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 5:
+                                                Quantum Computing Basics</a></h3>
                                         <p class="text-muted mb-0">Authors: J. K. L.</p>
-                                        <p class="text-muted small mb-0">May 2022 - Vol 10, Issue 3<br>Total Views: 19000 &amp; Total Downloads: 60</p>
+                                        <p class="text-muted small mb-0">May 2022 - Vol 10, Issue 3<br>Total Views:
+                                            19000 &amp; Total Downloads: 60</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 6: Big Data Processing Frameworks</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 6: Big
+                                                Data Processing Frameworks</a></h3>
                                         <p class="text-muted mb-0">Authors: M. N. O.</p>
-                                        <p class="text-muted small mb-0">May 2022 - Vol 10, Issue 3<br>Total Views: 17000 &amp; Total Downloads: 50</p>
+                                        <p class="text-muted small mb-0">May 2022 - Vol 10, Issue 3<br>Total Views:
+                                            17000 &amp; Total Downloads: 50</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 7: IoT Security Challenges</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 7: IoT
+                                                Security Challenges</a></h3>
                                         <p class="text-muted mb-0">Authors: P. Q. R.</p>
-                                        <p class="text-muted small mb-0">September 2022 - Vol 10, Issue 5<br>Total Views: 16000 &amp; Total Downloads: 350</p>
+                                        <p class="text-muted small mb-0">September 2022 - Vol 10, Issue 5<br>Total
+                                            Views: 16000 &amp; Total Downloads: 350</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 8: AI in Healthcare Diagnostics</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 8: AI in
+                                                Healthcare Diagnostics</a></h3>
                                         <p class="text-muted mb-0">Authors: S. T. U.</p>
-                                        <p class="text-muted small mb-0">May 2019 - Vol 7, Issue 3<br>Total Views: 15500 &amp; Total Downloads: 35</p>
+                                        <p class="text-muted small mb-0">May 2019 - Vol 7, Issue 3<br>Total Views: 15500
+                                            &amp; Total Downloads: 35</p>
                                     </li>
                                     <!-- Hidden articles for "View More" -->
                                     <div id="viewread" style="display:none;">
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 9: Renewable Energy Storage</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 9:
+                                                    Renewable Energy Storage</a></h3>
                                             <p class="text-muted mb-0">Authors: V. W. X.</p>
-                                            <p class="text-muted small mb-0">March 2022 - Vol 10, Issue 2<br>Total Views: 15000 &amp; Total Downloads: 55</p>
+                                            <p class="text-muted small mb-0">March 2022 - Vol 10, Issue 2<br>Total
+                                                Views: 15000 &amp; Total Downloads: 55</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 10: Human-Robot Collaboration</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 10:
+                                                    Human-Robot Collaboration</a></h3>
                                             <p class="text-muted mb-0">Authors: Y. Z. A.</p>
-                                            <p class="text-muted small mb-0">November 2019 - Vol 7, Issue 6<br>Total Views: 13000 &amp; Total Downloads: 65</p>
+                                            <p class="text-muted small mb-0">November 2019 - Vol 7, Issue 6<br>Total
+                                                Views: 13000 &amp; Total Downloads: 65</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 11: AI in Education</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 11:
+                                                    AI in Education</a></h3>
                                             <p class="text-muted mb-0">Authors: B. C. D.</p>
-                                            <p class="text-muted small mb-0">March 2022 - Vol 10, Issue 2<br>Total Views: 12500 &amp; Total Downloads: 35</p>
+                                            <p class="text-muted small mb-0">March 2022 - Vol 10, Issue 2<br>Total
+                                                Views: 12500 &amp; Total Downloads: 35</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 12: Electric Vehicle Charging Infrastructure</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 12:
+                                                    Electric Vehicle Charging Infrastructure</a></h3>
                                             <p class="text-muted mb-0">Authors: E. F. G.</p>
-                                            <p class="text-muted small mb-0">May 2024 - Vol 12, Issue 3<br>Total Views: 11000 &amp; Total Downloads: 250</p>
+                                            <p class="text-muted small mb-0">May 2024 - Vol 12, Issue 3<br>Total Views:
+                                                11000 &amp; Total Downloads: 250</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 13: Video Surveillance Systems</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 13:
+                                                    Video Surveillance Systems</a></h3>
                                             <p class="text-muted mb-0">Authors: H. I. J.</p>
-                                            <p class="text-muted small mb-0">March 2022 - Vol 10, Issue 2<br>Total Views: 10500 &amp; Total Downloads: 75</p>
+                                            <p class="text-muted small mb-0">March 2022 - Vol 10, Issue 2<br>Total
+                                                Views: 10500 &amp; Total Downloads: 75</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 14: Biometric Authentication</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 14:
+                                                    Biometric Authentication</a></h3>
                                             <p class="text-muted mb-0">Authors: K. L. M.</p>
-                                            <p class="text-muted small mb-0">March 2015 - Vol 3, Issue 2<br>Total Views: 10400 &amp; Total Downloads: 10</p>
+                                            <p class="text-muted small mb-0">March 2015 - Vol 3, Issue 2<br>Total Views:
+                                                10400 &amp; Total Downloads: 10</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 15: Stock Price Prediction with ML</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 15:
+                                                    Stock Price Prediction with ML</a></h3>
                                             <p class="text-muted mb-0">Authors: N. O. P.</p>
-                                            <p class="text-muted small mb-0">July 2021 - Vol 9, Issue 4<br>Total Views: 10200 &amp; Total Downloads: 50</p>
+                                            <p class="text-muted small mb-0">July 2021 - Vol 9, Issue 4<br>Total Views:
+                                                10200 &amp; Total Downloads: 50</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 16: Blockchain for Data Security</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 16:
+                                                    Blockchain for Data Security</a></h3>
                                             <p class="text-muted mb-0">Authors: Q. R. S.</p>
-                                            <p class="text-muted small mb-0">November 2021 - Vol 9, Issue 6<br>Total Views: 10100 &amp; Total Downloads: 40</p>
+                                            <p class="text-muted small mb-0">November 2021 - Vol 9, Issue 6<br>Total
+                                                Views: 10100 &amp; Total Downloads: 40</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 17: Digital Identity Management</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 17:
+                                                    Digital Identity Management</a></h3>
                                             <p class="text-muted mb-0">Authors: T. U. V.</p>
-                                            <p class="text-muted small mb-0">May 2020 - Vol 8, Issue 3<br>Total Views: 9600 &amp; Total Downloads: 40</p>
+                                            <p class="text-muted small mb-0">May 2020 - Vol 8, Issue 3<br>Total Views:
+                                                9600 &amp; Total Downloads: 40</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 18: Recommender Systems</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 18:
+                                                    Recommender Systems</a></h3>
                                             <p class="text-muted mb-0">Authors: W. X. Y.</p>
-                                            <p class="text-muted small mb-0">March 2020 - Vol 8, Issue 2<br>Total Views: 9550 &amp; Total Downloads: 50</p>
+                                            <p class="text-muted small mb-0">March 2020 - Vol 8, Issue 2<br>Total Views:
+                                                9550 &amp; Total Downloads: 50</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 19: Sentiment Analysis on Social Media</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 19:
+                                                    Sentiment Analysis on Social Media</a></h3>
                                             <p class="text-muted mb-0">Authors: Z. A. B.</p>
-                                            <p class="text-muted small mb-0">May 2020 - Vol 8, Issue 3<br>Total Views: 9200 &amp; Total Downloads: 60</p>
+                                            <p class="text-muted small mb-0">May 2020 - Vol 8, Issue 3<br>Total Views:
+                                                9200 &amp; Total Downloads: 60</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 20: Process Improvement Frameworks</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Popular Topic 20:
+                                                    Process Improvement Frameworks</a></h3>
                                             <p class="text-muted mb-0">Authors: C. D. E.</p>
-                                            <p class="text-muted small mb-0">January 2023 - Vol 11, Issue 1<br>Total Views: 8800 &amp; Total Downloads: 130</p>
+                                            <p class="text-muted small mb-0">January 2023 - Vol 11, Issue 1<br>Total
+                                                Views: 8800 &amp; Total Downloads: 130</p>
                                         </li>
                                     </div>
                                 </ul>
                                 <div class="text-center mt-3">
-                                    <button class="btn btn-danger btn-sm rounded-pill" id="viewmoreread">View More</button>
-                                    <button class="btn btn-danger btn-sm rounded-pill" id="viewlessread" style="display:none;">View Less</button>
+                                    <button class="btn btn-danger btn-sm rounded-pill" id="viewmoreread">View
+                                        More</button>
+                                    <button class="btn btn-danger btn-sm rounded-pill" id="viewlessread"
+                                        style="display:none;">View Less</button>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-mostcited" role="tabpanel" aria-labelledby="nav-mostcited-tab">
+                            <div class="tab-pane fade" id="nav-mostcited" role="tabpanel"
+                                aria-labelledby="nav-mostcited-tab">
                                 <h5 class="mb-3">Articles with the most citations.</h5>
                                 <ul class="list-group list-group-flush small-posts">
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 1: Data Mining Challenges</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article
+                                                1: Data Mining Challenges</a></h3>
                                         <p class="text-muted mb-0">Authors: F. G. H.</p>
-                                        <p class="text-muted small mb-0">November 2013 - Vol 1, Issue 2<br>Citations: 30<br>Total Views: 5000 &amp; Total Downloads: 70</p>
+                                        <p class="text-muted small mb-0">November 2013 - Vol 1, Issue 2<br>Citations:
+                                            30<br>Total Views: 5000 &amp; Total Downloads: 70</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 2: Smart Greenhouse Automation</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article
+                                                2: Smart Greenhouse Automation</a></h3>
                                         <p class="text-muted mb-0">Authors: I. J. K.</p>
-                                        <p class="text-muted small mb-0">March 2017 - Vol 5, Issue 2<br>Citations: 20<br>Total Views: 4500 &amp; Total Downloads: 50</p>
+                                        <p class="text-muted small mb-0">March 2017 - Vol 5, Issue 2<br>Citations:
+                                            20<br>Total Views: 4500 &amp; Total Downloads: 50</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 3: K-Means Clustering Optimization</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article
+                                                3: K-Means Clustering Optimization</a></h3>
                                         <p class="text-muted mb-0">Authors: L. M. N.</p>
-                                        <p class="text-muted small mb-0">November 2014 - Vol 2, Issue 6<br>Citations: 18<br>Total Views: 4300 &amp; Total Downloads: 25</p>
+                                        <p class="text-muted small mb-0">November 2014 - Vol 2, Issue 6<br>Citations:
+                                            18<br>Total Views: 4300 &amp; Total Downloads: 25</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 4: Cloud Computing in Education</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article
+                                                4: Cloud Computing in Education</a></h3>
                                         <p class="text-muted mb-0">Authors: O. P. Q.</p>
-                                        <p class="text-muted small mb-0">March 2015 - Vol 3, Issue 2<br>Citations: 18<br>Total Views: 4600 &amp; Total Downloads: 35</p>
+                                        <p class="text-muted small mb-0">March 2015 - Vol 3, Issue 2<br>Citations:
+                                            18<br>Total Views: 4600 &amp; Total Downloads: 35</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 5: IoT for Smart Airports</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article
+                                                5: IoT for Smart Airports</a></h3>
                                         <p class="text-muted mb-0">Authors: R. S. T.</p>
-                                        <p class="text-muted small mb-0">September 2016 - Vol 4, Issue 5<br>Citations: 15<br>Total Views: 4800 &amp; Total Downloads: 38</p>
+                                        <p class="text-muted small mb-0">September 2016 - Vol 4, Issue 5<br>Citations:
+                                            15<br>Total Views: 4800 &amp; Total Downloads: 38</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 6: Chatbot Implementation with AI/NLP</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article
+                                                6: Chatbot Implementation with AI/NLP</a></h3>
                                         <p class="text-muted mb-0">Authors: U. V. W.</p>
-                                        <p class="text-muted small mb-0">May 2018 - Vol 6, Issue 3<br>Citations: 15<br>Total Views: 6500 &amp; Total Downloads: 100</p>
+                                        <p class="text-muted small mb-0">May 2018 - Vol 6, Issue 3<br>Citations:
+                                            15<br>Total Views: 6500 &amp; Total Downloads: 100</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 7: Private Key Cryptography</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article
+                                                7: Private Key Cryptography</a></h3>
                                         <p class="text-muted mb-0">Authors: X. Y. Z.</p>
-                                        <p class="text-muted small mb-0">March 2017 - Vol 5, Issue 2<br>Citations: 14<br>Total Views: 4400 &amp; Total Downloads: 30</p>
+                                        <p class="text-muted small mb-0">March 2017 - Vol 5, Issue 2<br>Citations:
+                                            14<br>Total Views: 4400 &amp; Total Downloads: 30</p>
                                     </li>
                                     <li class="list-group-item">
-                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 8: Smart Transportation Systems</a></h3>
+                                        <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article
+                                                8: Smart Transportation Systems</a></h3>
                                         <p class="text-muted mb-0">Authors: A. B. C.</p>
-                                        <p class="text-muted small mb-0">January 2017 - Vol 5, Issue 1<br>Citations: 13<br>Total Views: 4500 &amp; Total Downloads: 20</p>
+                                        <p class="text-muted small mb-0">January 2017 - Vol 5, Issue 1<br>Citations:
+                                            13<br>Total Views: 4500 &amp; Total Downloads: 20</p>
                                     </li>
                                     <!-- Hidden articles for "View More" -->
                                     <div id="viewcited" style="display:none;">
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 9: Multi-Layered Security Systems</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 9: Multi-Layered Security Systems</a></h3>
                                             <p class="text-muted mb-0">Authors: D. E. F.</p>
-                                            <p class="text-muted small mb-0">March 2019 - Vol 7, Issue 2<br>Citations: 13<br>Total Views: 4000 &amp; Total Downloads: 30</p>
+                                            <p class="text-muted small mb-0">March 2019 - Vol 7, Issue 2<br>Citations:
+                                                13<br>Total Views: 4000 &amp; Total Downloads: 30</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 10: Augmented Reality Translators</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 10: Augmented Reality Translators</a></h3>
                                             <p class="text-muted mb-0">Authors: G. H. I.</p>
-                                            <p class="text-muted small mb-0">March 2014 - Vol 2, Issue 2<br>Citations: 12<br>Total Views: 3500 &amp; Total Downloads: 8</p>
+                                            <p class="text-muted small mb-0">March 2014 - Vol 2, Issue 2<br>Citations:
+                                                12<br>Total Views: 3500 &amp; Total Downloads: 8</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 11: Fog Computing & Data Theft</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 11: Fog Computing & Data Theft</a></h3>
                                             <p class="text-muted mb-0">Authors: J. K. L.</p>
-                                            <p class="text-muted small mb-0">November 2014 - Vol 2, Issue 6<br>Citations: 12<br>Total Views: 3900 &amp; Total Downloads: 12</p>
+                                            <p class="text-muted small mb-0">November 2014 - Vol 2, Issue
+                                                6<br>Citations: 12<br>Total Views: 3900 &amp; Total Downloads: 12</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 12: Wireless Sensor Networks in Military</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 12: Wireless Sensor Networks in Military</a></h3>
                                             <p class="text-muted mb-0">Authors: M. N. O.</p>
-                                            <p class="text-muted small mb-0">January 2017 - Vol 5, Issue 1<br>Citations: 12<br>Total Views: 3950 &amp; Total Downloads: 18</p>
+                                            <p class="text-muted small mb-0">January 2017 - Vol 5, Issue 1<br>Citations:
+                                                12<br>Total Views: 3950 &amp; Total Downloads: 18</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 13: Bacteria in Concrete</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 13: Bacteria in Concrete</a></h3>
                                             <p class="text-muted mb-0">Authors: P. Q. R.</p>
-                                            <p class="text-muted small mb-0">November 2014 - Vol 2, Issue 6<br>Citations: 11<br>Total Views: 3500 &amp; Total Downloads: 30</p>
+                                            <p class="text-muted small mb-0">November 2014 - Vol 2, Issue
+                                                6<br>Citations: 11<br>Total Views: 3500 &amp; Total Downloads: 30</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 14: Hybrid App Dev with Ionic</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 14: Hybrid App Dev with Ionic</a></h3>
                                             <p class="text-muted mb-0">Authors: S. T. U.</p>
-                                            <p class="text-muted small mb-0">March 2016 - Vol 4, Issue 2<br>Citations: 10<br>Total Views: 4400 &amp; Total Downloads: 40</p>
+                                            <p class="text-muted small mb-0">March 2016 - Vol 4, Issue 2<br>Citations:
+                                                10<br>Total Views: 4400 &amp; Total Downloads: 40</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 15: Fruit Defect Detection</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 15: Fruit Defect Detection</a></h3>
                                             <p class="text-muted mb-0">Authors: V. W. X.</p>
-                                            <p class="text-muted small mb-0">May 2014 - Vol 2, Issue 3<br>Citations: 9<br>Total Views: 4400 &amp; Total Downloads: 20</p>
+                                            <p class="text-muted small mb-0">May 2014 - Vol 2, Issue 3<br>Citations:
+                                                9<br>Total Views: 4400 &amp; Total Downloads: 20</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 16: HIV Image Analysis</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 16: HIV Image Analysis</a></h3>
                                             <p class="text-muted mb-0">Authors: Y. Z. A.</p>
-                                            <p class="text-muted small mb-0">March 2016 - Vol 4, Issue 2<br>Citations: 9<br>Total Views: 3800 &amp; Total Downloads: 15</p>
+                                            <p class="text-muted small mb-0">March 2016 - Vol 4, Issue 2<br>Citations:
+                                                9<br>Total Views: 3800 &amp; Total Downloads: 15</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 17: EEG Data Analysis</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 17: EEG Data Analysis</a></h3>
                                             <p class="text-muted mb-0">Authors: B. C. D.</p>
-                                            <p class="text-muted small mb-0">March 2016 - Vol 4, Issue 2<br>Citations: 9<br>Total Views: 3400 &amp; Total Downloads: 12</p>
+                                            <p class="text-muted small mb-0">March 2016 - Vol 4, Issue 2<br>Citations:
+                                                9<br>Total Views: 3400 &amp; Total Downloads: 12</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 18: Text Document Clustering</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 18: Text Document Clustering</a></h3>
                                             <p class="text-muted mb-0">Authors: E. F. G.</p>
-                                            <p class="text-muted small mb-0">September 2014 - Vol 2, Issue 5<br>Citations: 8<br>Total Views: 5800 &amp; Total Downloads: 18</p>
+                                            <p class="text-muted small mb-0">September 2014 - Vol 2, Issue
+                                                5<br>Citations: 8<br>Total Views: 5800 &amp; Total Downloads: 18</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 19: Fly Ash in Bricks</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 19: Fly Ash in Bricks</a></h3>
                                             <p class="text-muted mb-0">Authors: H. I. J.</p>
-                                            <p class="text-muted small mb-0">July 2015 - Vol 3, Issue 4<br>Citations: 8<br>Total Views: 4000 &amp; Total Downloads: 22</p>
+                                            <p class="text-muted small mb-0">July 2015 - Vol 3, Issue 4<br>Citations:
+                                                8<br>Total Views: 4000 &amp; Total Downloads: 22</p>
                                         </li>
                                         <li class="list-group-item">
-                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited Article 20: TOPSIS for Supplier Selection</a></h3>
+                                            <h3><a href="#" class="text-decoration-none text-primary">Highly Cited
+                                                    Article 20: TOPSIS for Supplier Selection</a></h3>
                                             <p class="text-muted mb-0">Authors: K. L. M.</p>
-                                            <p class="text-muted small mb-0">July 2015 - Vol 3, Issue 4<br>Citations: 8<br>Total Views: 5600 &amp; Total Downloads: 15</p>
+                                            <p class="text-muted small mb-0">July 2015 - Vol 3, Issue 4<br>Citations:
+                                                8<br>Total Views: 5600 &amp; Total Downloads: 15</p>
                                         </li>
                                     </div>
                                 </ul>
                                 <div class="text-center mt-3">
-                                    <button class="btn btn-danger btn-sm rounded-pill" id="viewmorecited">View More</button>
-                                    <button class="btn btn-danger btn-sm rounded-pill" id="viewlesscited" style="display:none;">View Less</button>
+                                    <button class="btn btn-danger btn-sm rounded-pill" id="viewmorecited">View
+                                        More</button>
+                                    <button class="btn btn-danger btn-sm rounded-pill" id="viewlesscited"
+                                        style="display:none;">View Less</button>
                                 </div>
                             </div>
                         </div>
@@ -633,24 +835,45 @@
 
                 <div class="about-box card shadow-sm mb-4 rounded-3">
                     <div class="card-body">
-                        <p class="text-justify">Please ensure that any submitted manuscript has not been previously submitted or published elsewhere. We strictly advise submitting only original and plagiarism-free articles for consideration; otherwise, they will be rejected without a response.</p>
-                        <p class="text-justify">All received manuscripts undergo a double-blind peer review process, and the final decision is based on high levels of quality, originality, and significant contribution to existing knowledge. It is crucial that once your article is submitted to our journal, it cannot be submitted or presented anywhere else unless it is officially rejected. This paper will not be withdrawn or presentable in any other journal, conference, magazine, or media without the explicit permission of our journal.</p>
+                        <p class="text-justify">Please ensure that any submitted manuscript has not been previously
+                            submitted or published elsewhere. We strictly advise submitting only original and
+                            plagiarism-free articles for consideration; otherwise, they will be rejected without a
+                            response.</p>
+                        <p class="text-justify">All received manuscripts undergo a double-blind peer review process, and
+                            the final decision is based on high levels of quality, originality, and significant
+                            contribution to existing knowledge. It is crucial that once your article is submitted to our
+                            journal, it cannot be submitted or presented anywhere else unless it is officially rejected.
+                            This paper will not be withdrawn or presentable in any other journal, conference, magazine,
+                            or media without the explicit permission of our journal.</p>
                         <p class="mb-0 fw-bold">Publication Charges of Our Journal</p>
-                        <p class="text-justify">If an article is accepted for publication, authors are required to pay a nominal processing charge. This fee covers the online publication of the entire research paper, assignment of an individual Digital Object Identifier (DOI) number to each article, individual e-Certificates for all authors, indexing processes, editorial fees, website maintenance, and journal infrastructure costs.</p>
+                        <p class="text-justify">If an article is accepted for publication, authors are required to pay a
+                            nominal processing charge. This fee covers the online publication of the entire research
+                            paper, assignment of an individual Digital Object Identifier (DOI) number to each article,
+                            individual e-Certificates for all authors, indexing processes, editorial fees, website
+                            maintenance, and journal infrastructure costs.</p>
                         <p class="mb-0 fw-bold">Abstracting, Indexing and Archiving</p>
-                        <p class="text-justify">Our journal is indexed and archived by various reputable services, including CrossRef, DOI, Google Scholar, EuroPub, Index Copernicus, Internet Archive, Indian Citation Index (ICI), Academia, Zenodo, Mendeley, Semantic Scholar, Scope Database, ResearchBib, CiteFactor, Follow Science, DRJI, J-Gate, ScienceGate, AcademicKeys, and more.</p>
+                        <p class="text-justify">Our journal is indexed and archived by various reputable services,
+                            including CrossRef, DOI, Google Scholar, EuroPub, Index Copernicus, Internet Archive, Indian
+                            Citation Index (ICI), Academia, Zenodo, Mendeley, Semantic Scholar, Scope Database,
+                            ResearchBib, CiteFactor, Follow Science, DRJI, J-Gate, ScienceGate, AcademicKeys, and more.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Share This Entry Section -->
                 <div class="widget social-widget card shadow-sm mb-4 rounded-3">
                     <div class="card-body p-0">
-                        <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Share this entry</h2>
+                        <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Share this entry
+                        </h2>
                         <ul class="social-share list-unstyled d-flex justify-content-center gap-3 py-3 mb-0">
-                            <li><a href="#" target="_blank" class="btn btn-social-icon facebook rounded-circle"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" class="btn btn-social-icon twitter rounded-circle" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" class="btn btn-social-icon linkedin rounded-circle" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#" class="btn btn-social-icon envelope rounded-circle" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                            <li><a href="#" target="_blank" class="btn btn-social-icon facebook rounded-circle"><i
+                                        class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="btn btn-social-icon twitter rounded-circle" target="_blank"><i
+                                        class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class="btn btn-social-icon linkedin rounded-circle" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" class="btn btn-social-icon envelope rounded-circle" target="_blank"><i
+                                        class="fa fa-envelope"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -666,14 +889,16 @@
                     </div>
 
                     <div class="search-widget widget card shadow-sm mb-4 rounded-3 text-center p-3">
-                        <img src="https://placehold.co/200x68/e0e0e0/000000?text=Indexing+Logo+1" alt="Indexing Logo 1" class="img-fluid mb-2">
+                        <img src="https://placehold.co/200x68/e0e0e0/000000?text=Indexing+Logo+1" alt="Indexing Logo 1"
+                            class="img-fluid mb-2">
                         <p class="small">Our journal is indexed by various prestigious services.
                             <a href="#" target="_blank" class="text-primary">Learn more</a>
                         </p>
                     </div>
 
                     <div class="search-widget widget card shadow-sm mb-4 rounded-3 text-center p-3">
-                        <img src="https://placehold.co/100x60/e0e0e0/000000?text=ISSN+Demo" alt="ISSN Demo" class="img-fluid mb-2">
+                        <img src="https://placehold.co/100x60/e0e0e0/000000?text=ISSN+Demo" alt="ISSN Demo"
+                            class="img-fluid mb-2">
                         <p class="small">ISSN(Online) for our Digital Library is XXXX-YYYY
                             <a href="#" class="text-primary">Learn more</a>
                         </p>
@@ -681,11 +906,17 @@
 
                     <div class="search-widget widget card shadow-sm mb-4 rounded-3">
                         <div class="card-body p-0">
-                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Latest News</h2>
+                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Latest News
+                            </h2>
                             <div class="p-3">
-                                <marquee behavior="scroll" direction="up" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" style="height:200px">
-                                    <p class="mb-2"><a href="#" target="_blank" class="text-decoration-none text-dark">Call for Papers for Upcoming Issue. Submit Now!</a></p>
-                                    <p class="mb-2"><a href="#" target="_blank" class="text-decoration-none text-dark">New guidelines for authors published. Check them out.</a></p>
+                                <marquee behavior="scroll" direction="up" scrollamount="3" onmouseover="this.stop();"
+                                    onmouseout="this.start();" style="height:200px">
+                                    <p class="mb-2"><a href="#" target="_blank"
+                                            class="text-decoration-none text-dark">Call for Papers for Upcoming Issue.
+                                            Submit Now!</a></p>
+                                    <p class="mb-2"><a href="#" target="_blank"
+                                            class="text-decoration-none text-dark">New guidelines for authors published.
+                                            Check them out.</a></p>
                                 </marquee>
                             </div>
                         </div>
@@ -695,7 +926,9 @@
                         <div class="card-body p-3">
                             <div class="flexslider">
                                 <ul class="slides list-unstyled mb-0">
-                                    <li><a href="#" target="_blank"><img alt="Partner Logo" src="https://placehold.co/200x100/e0e0e0/000000?text=Partner+Logo" class="img-fluid rounded-3"></a></li>
+                                    <li><a href="#" target="_blank"><img alt="Partner Logo"
+                                                src="https://placehold.co/200x100/e0e0e0/000000?text=Partner+Logo"
+                                                class="img-fluid rounded-3"></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -703,11 +936,18 @@
 
                     <div class="widget tags-widget card shadow-sm mb-4 rounded-3">
                         <div class="card-body p-0">
-                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Important Links</h2>
+                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Important Links
+                            </h2>
                             <ul class="list-group list-group-flush text-center">
-                                <li class="list-group-item"><a href="#" target="_blank"><img src="https://placehold.co/250x68/e0e0e0/000000?text=Link+1" alt="Important Link 1" class="img-fluid rounded-3 my-2"></a></li>
-                                <li class="list-group-item"><a href="#" target="_blank"><img src="https://placehold.co/250x68/e0e0e0/000000?text=Link+2" alt="Important Link 2" class="img-fluid rounded-3 my-2"></a></li>
-                                <li class="list-group-item"><a href="#" target="_blank"><img src="https://placehold.co/250x68/e0e0e0/000000?text=Link+3" alt="Important Link 3" class="img-fluid rounded-3 my-2"></a></li>
+                                <li class="list-group-item"><a href="#" target="_blank"><img
+                                            src="https://placehold.co/250x68/e0e0e0/000000?text=Link+1"
+                                            alt="Important Link 1" class="img-fluid rounded-3 my-2"></a></li>
+                                <li class="list-group-item"><a href="#" target="_blank"><img
+                                            src="https://placehold.co/250x68/e0e0e0/000000?text=Link+2"
+                                            alt="Important Link 2" class="img-fluid rounded-3 my-2"></a></li>
+                                <li class="list-group-item"><a href="#" target="_blank"><img
+                                            src="https://placehold.co/250x68/e0e0e0/000000?text=Link+3"
+                                            alt="Important Link 3" class="img-fluid rounded-3 my-2"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -715,9 +955,11 @@
                     <!-- Facebook Like Box (Visual placeholder) -->
                     <div class="widget tags-widget card shadow-sm mb-4 rounded-3">
                         <div class="card-body p-0">
-                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Social Media</h2>
+                            <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">Social Media
+                            </h2>
                             <div class="p-3 text-center">
-                                <img src="https://placehold.co/293x535/e0e0e0/000000?text=Social+Media+Feed" alt="Social Media Feed Placeholder" class="img-fluid rounded-3">
+                                <img src="https://placehold.co/293x535/e0e0e0/000000?text=Social+Media+Feed"
+                                    alt="Social Media Feed Placeholder" class="img-fluid rounded-3">
                             </div>
                         </div>
                     </div>
@@ -726,9 +968,12 @@
                         <div class="card-body p-0">
                             <h2 class="widget-title custom-list-header fw-bold text-uppercase py-3 px-3">STATISTICS</h2>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">Visitors online: <strong><span id="onlnuser">XX</span></strong></li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">Articles Viewed: <strong>XXXXXX</strong></li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">Articles Downloaded: <strong>XXXXX</strong></li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">Visitors
+                                    online: <strong><span id="onlnuser">XX</span></strong></li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">Articles
+                                    Viewed: <strong>XXXXXX</strong></li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">Articles
+                                    Downloaded: <strong>XXXXX</strong></li>
                             </ul>
                         </div>
                     </div>
@@ -740,19 +985,31 @@
         <div class="title-section text-center my-4">
             <h2 class="widget-title custom-section-title d-inline-block px-3 py-2 rounded-pill">Indexed by</h2>
         </div>
-        <div id="slider1_container" class="mb-5" style="position: relative; top: 0px; left: 0px; width: 100%; height: 100px; overflow: hidden;">
-            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 100%; height: 100px; overflow: hidden;">
+        <div id="slider1_container" class="mb-5"
+            style="position: relative; top: 0px; left: 0px; width: 100%; height: 100px; overflow: hidden;">
+            <div u="slides"
+                style="cursor: move; position: absolute; left: 0px; top: 0px; width: 100%; height: 100px; overflow: hidden;">
                 <!-- Slides for the carousel, using placehold.co for visual representation -->
-                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+1" alt="Index 1"></div>
-                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+2" alt="Index 2"></div>
-                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+3" alt="Index 3"></div>
-                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+4" alt="Index 4"></div>
-                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+5" alt="Index 5"></div>
-                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+6" alt="Index 6"></div>
-                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+7" alt="Index 7"></div>
-                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+8" alt="Index 8"></div>
-                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+9" alt="Index 9"></div>
-                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+10" alt="Index 10"></div>
+                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+1"
+                        alt="Index 1"></div>
+                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+2"
+                        alt="Index 2"></div>
+                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+3"
+                        alt="Index 3"></div>
+                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+4"
+                        alt="Index 4"></div>
+                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+5"
+                        alt="Index 5"></div>
+                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+6"
+                        alt="Index 6"></div>
+                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+7"
+                        alt="Index 7"></div>
+                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+8"
+                        alt="Index 8"></div>
+                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+9"
+                        alt="Index 9"></div>
+                <div><img class="indimg1" u="image" src="https://placehold.co/140x100/003366/ffffff?text=Index+10"
+                        alt="Index 10"></div>
             </div>
             <script>jssor_slider1_starter('slider1_container');</script>
         </div>
@@ -767,8 +1024,12 @@
                 <li><a href="#" class="text-white text-decoration-none px-2">Terms &amp; Conditions</a></li>
                 <li><a href="#" class="text-white text-decoration-none px-2">XML Sitemap</a></li>
             </ul>
-            <p class="mb-2">Copyright © 2013-2025 &nbsp; | &nbsp; <a href="#" target="_blank" class="text-white text-decoration-none"> Demo Publication </a>, Registration No. XXXXXXX</p>
-            <p class="mb-2"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/" class="text-white text-decoration-none"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png">Creative Commons Attribution 4.0 International License</a></p>
+            <p class="mb-2">Copyright © 2013-2025 &nbsp; | &nbsp; <a href="#" target="_blank"
+                    class="text-white text-decoration-none"> Demo Publication </a>, Registration No. XXXXXXX</p>
+            <p class="mb-2"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"
+                    class="text-white text-decoration-none"><img alt="Creative Commons License" style="border-width:0"
+                        src="https://i.creativecommons.org/l/by/4.0/88x31.png">Creative Commons Attribution 4.0
+                    International License</a></p>
             <p class="mb-0 small text-white">Visitor Counter: XXXXXXX</p>
         </div>
     </footer>
@@ -783,4 +1044,5 @@
     <!-- Custom JS -->
     <script src="js/script.js"></script>
 </body>
+
 </html>
